@@ -1,0 +1,100 @@
+.orderList{
+    width: max-content;
+    margin: auto 70px;
+    height: max-content;
+}
+.orderList_header {
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.orderList_header .numoforder h3 {
+    margin-left: 60px;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+.orderList_search{
+    margin-right: 50px;
+}
+.orderList_searchbar{
+    margin-top: -70px;
+        float: right;
+        width: 200px;
+        height: 120px;
+        margin-left: -100px;
+        border-bottom: 1px solid #c5c8e7;
+}
+.orderList_searchicon{
+    margin-top: 95px;
+}
+.orderList_header .createorderBtn{
+    position: absolute;
+    top: 80px;
+    right: 300px;
+    width: 107px;
+        height: 32px;
+        border: 1px solid #5861AE;
+        border-radius: 4px;
+        color: #5861AE;
+}
+.orderList table{
+    margin: auto;
+}
+.orderList thead{
+    height: 40px;
+    background-color: #383737;
+    color: white;
+    justify-content: space-between;
+}
+.orderList thead p{
+font-size: 15px;
+    font-weight: 400;
+}
+.orderList tbody p{
+    text-align: center;
+    margin: 10px 0;
+    font-size: 13px;
+        font-weight: 400;
+}
+tr td div{
+    margin: auto;
+}
+.orderList .orderId{
+    width: 80px;
+}
+.orderList .datetime{
+    width: 130px;
+}
+.orderList .location{
+    width: 120px;
+}
+.orderList .district{
+    width:110px;
+}
+.orderList .phone{
+    width: 130px;
+}
+.orderList .items{
+    width: 100px;
+}
+.orderList .price{
+    width: 100px;
+}
+.orderList .status{
+    width: 110px;
+}
+.orderList .cancel{
+    width: 120px;
+}
+.orderList .view{
+    width: 120px;
+} 
+.orderList .view p{
+    padding: 0;
+    margin: 5px;
+}
+.orderList tr{
+    border-bottom: 1px solid #c9c9c9;
+}

@@ -1,0 +1,53 @@
+.landing #signInAndReg{
+    width: 100%;
+    height: calc(100vh - 140px);
+}
+.landing .refer{
+    height: 60px;
+    width: 100%;
+    background: #F8F9FF 0% 0% no-repeat padding-box;
+        box-shadow: 0px -3px 6px #5861AE;
+        opacity: 1;
+        text-align: center;
+}
+.landing .refer h3{
+    letter-spacing: 2.96px;
+        color: #5861AE;
+        font-weight: 600;
+        font-size: 10x;
+}
+.landing .refer p {
+    margin: -10px 0;
+    font-weight: 100;
+    font-size: 12px;
+    letter-spacing: 0.4px;
+        color: #3D3D43;
+        font-style: italic;
+}
+.landing .aboutUs{
+    padding: 50px 100px;
+    width: 100%;
+    height: 250px;
+    box-sizing: border-box;
+    background: transparent url('../../../public/image/Footer.svg') 0% 0% no-repeat padding-box;
+    font-weight: 100;
+}
+.landing .aboutUs h3{
+    font-weight: 500;
+}
+#aboutusContent{
+    display: flex;
+    justify-content: space-between;
+}
+#aboutusContent .socialicon{
+    display: flex;
+}
+.socialicon .icons{
+    margin: 5px;
+}
+
+
+
+
+
+

@@ -1,0 +1,83 @@
+header .logout {
+    height: 60px;
+        width: 160px;
+        border-left: 1px solid #e2e2e2;
+    display: flex;
+    background-color: #5861AE;
+    color: white;
+}
+header .logout p{
+    padding-right: 10px;
+}
+header .logout .profile{
+    margin: auto 10px;
+    width: 40px;
+    height: 40px;
+    border: 1px solid #c5c8e7;
+    border-radius: 50%;
+    background-color: #c5c8e7;
+}
+.orders section{
+    height: 110vh;
+    display: flex;
+}
+.orders section .sidebar{
+    width: 57px;
+    height: 100%;
+    background-color: #5861AE;
+}
+.orders .sidebar .icon{
+    margin: 5px 0;
+    width: 57px;
+    height: 57px;
+    text-align: center;
+}
+.orders .sidebar .icon img{
+    margin: 20px auto;
+}
+.orders .sidebar .list {
+    background-color: white;
+}
+#zeroorder {
+    width: 100%;
+}
+.header {
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+}
+.header .numoforder h3{
+    margin-left: 60px;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+.searchbar{
+    margin-top: -80px;
+    float: right;
+    width: 200px;
+    height: 120px;
+    margin-left: 900px;
+    border-bottom: 1px solid #c5c8e7;
+}
+.searchicon{
+    margin-top: 95px;
+}
+#zeroorder .real-content{
+    text-align: center;
+}
+#zeroorder .real-content div{
+    margin: 30vh auto;
+}
+#zeroorder .real-content div p{
+    letter-spacing: 0px;
+        color: #222B45;
+        opacity: 0.5;
+}
+#zeroorder .real-content  div button{
+    padding: 7px 25px;
+    border: 1px solid #5861AE;
+        border-radius: 4px;
+        color: #5861AE;
+        background-color: none;
+}

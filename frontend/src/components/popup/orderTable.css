@@ -1,0 +1,37 @@
+.detailRow{
+    width: 90%;
+    height: 40px;
+    display: flex;
+    margin: auto;
+}
+.detailRow .product{
+    font-size: 20px;
+    width: 200px;
+    font-weight: 500;
+    margin: auto 0;
+        border-bottom: 1px solid #d1d1d1;
+}
+.detailRow .service{
+    font-size: large;
+        font-weight: 300;
+        margin: auto 0;
+        width: 300px;
+        text-align: left;
+            border-bottom: 1px solid #d1d1d1;
+}
+.detailRow .price{
+    font-size: large;
+        font-weight: 500;
+        margin: auto 0;
+        width: 100px;
+        text-align: right;
+            border-bottom: 1px solid #d1d1d1;
+}
+.detailRow .total{
+    font-size: large;
+        font-weight: 500;
+        margin: auto 0;
+        width: 200px;
+        text-align: center;
+            border-bottom: 1px solid #d1d1d1;
+}

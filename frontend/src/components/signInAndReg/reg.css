@@ -1,0 +1,107 @@
+#reg{
+        width: 100%;
+            height: calc(100vh - 125px);
+}
+#reg .regtext{
+    padding-top: 15vh;
+    padding-left: 50px;
+    width: 18%;
+    height:99%;
+        background: #ffffff1a;
+        float: left;
+}
+#reg .regtext h1{
+    font-size: 60px;
+    letter-spacing: 2.48px;
+        color: #5861AE;
+        margin-bottom: -10px;
+        margin-top: -10px;
+}
+#reg .regtext p {
+    font-size: 20px;
+    letter-spacing: 0.8px;
+        color: #565657;
+    margin-bottom: -20px;
+    padding-bottom: 0;
+}
+#reg .regtext .signBtn {
+    font-size: 13px;
+}
+#reg .regtext button{
+    height: 40px;
+        width: 120px;
+        border: 2px solid #4552C1;
+        border-radius: 4px;
+        letter-spacing: 0.3px;
+        color: #4552C1;
+}
+#reg .linee{
+    height: 200px;
+    width: 148%;
+    border-right: 1px solid #4552C1;
+    z-index: 50;
+}
+#reg .regform{
+    height: 100%;
+    width: 69.5%;
+        float: right;
+            background: #B9C0FD1A;
+}
+#reg .regform h1{
+    margin-left: 50px;
+    font-weight: 400;
+    letter-spacing: 1.28px;
+        color: #5861AE;
+}
+#reg_form{
+    margin-left: 50px;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+} 
+#reg .regform .form{
+    width: 45%;
+}
+#reg .reg_name{
+    border-bottom: 1px solid #a3a3a3;
+    margin-bottom: 20px;
+}
+#reg .regform .left{
+    float: left;
+}
+#reg .regform .right {
+    float: right;
+}
+#reg .terms{
+    margin-top: 10px;
+    margin-left: 150px;
+    display: flex;
+    letter-spacing: 0.49px;
+        color: #5861AE;
+}
+#reg .terms img{
+    margin-right: 10px;
+}
+#reg .terms p{
+    margin:auto;
+}
+#reg form button{
+    background-color: #9098db;
+        border: 0px;
+        color: white;
+        width: 150px;
+        height: 50px;
+        margin-top: 30px;
+        margin-left: 350px;
+        border-radius: 4px;
+}
+#reg .checkbox{
+    height: 20px;
+    width: 20px;
+    margin-right: 10px;
+    border: 1px solid #4552C1;
+}
+#reg .err{
+    color: red;
+    text-align: center;
+}
